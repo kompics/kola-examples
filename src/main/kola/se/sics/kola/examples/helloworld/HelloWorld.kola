@@ -1,0 +1,14 @@
+package se.sics.kola.examples.helloworld;
+
+componentdef HelloC {
+	handle startHandler => control: Start e {
+		System.out.println("Hello World from Kola!");
+		Kompics.asyncShutdown();
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+		Kompics.createAndStart(HelloC.class, Init.NONE);
+	}	
+}
