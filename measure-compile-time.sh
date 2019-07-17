@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for run in {1..2}
+for run in {1..25}
 do
   echo "Starting Run#$run";
   echo "Cleaning...";
