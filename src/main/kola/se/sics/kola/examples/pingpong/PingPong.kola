@@ -57,6 +57,12 @@ public class Main {
 	public static final long REPEAT = 50000000;
 
 	public static void main(String[] args) {
-		Kompics.createAndStart(ParentC.class, Init.NONE, 2, BATCH_SIZE);
+		try {
+			Kompics.createAndStart(ParentC.class, 2, BATCH_SIZE);
+			Kompics.waitForTermination();
+		} catch(InterruptedException ex) {
+			System.err.println("Got rudely interruped!");
+			System.exit(1);
+		}
 	}	
 }

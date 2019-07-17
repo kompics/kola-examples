@@ -3,14 +3,14 @@
  
   <groupId>se.sics.kola</groupId>
   <artifactId>kola-examples</artifactId>
-  <version>1.9.2-SNAPSHOT</version>
+  <version>1.9.3-SNAPSHOT</version>
  
   <name>Kola Examples Project</name>
  
   <properties>
         <java.compiler.version>1.7</java.compiler.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kompics.version>0.9.2-SNAPSHOT</kompics.version>
+        <kompics.version>1.1.0</kompics.version>
     </properties>
 
   <dependencies>
@@ -49,7 +49,7 @@
                 <inherited>true</inherited>
                 <groupId>se.sics.kola</groupId>
                 <artifactId>kola-maven-plugin</artifactId>
-                <version>1.9.2-SNAPSHOT</version>
+                <version>1.9.3-SNAPSHOT</version>
                 <configuration>
                     <showDebugPrint>false</showDebugPrint>
                     <calcMetrics>true</calcMetrics>
