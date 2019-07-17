@@ -4,8 +4,8 @@ import se.sics.kompics.Init;
 import se.sics.kompics.Kompics;
 
 public class Main {
-    public final static int BATCH_SIZE = 50;
-    public final static long REPEAT = 50000000;
+    public static final int BATCH_SIZE = 50;
+    public static final long REPEAT = 100000000;
 
     public static void main(String[] args) {
         try {

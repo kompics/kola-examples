@@ -36,7 +36,7 @@ componentdef PingerC {
 		} else if (received >= Main.REPEAT) {
 			long endTs = System.currentTimeMillis();
 			long diff = endTs - startTs;
-			long tp = (received / (diff/1000));
+			long tp = ((sent+received) / (diff / 1000l));
 			System.out.println(String.format("Final Throughput: %,d msgs/s", tp));
 			Kompics.asyncShutdown();
 		}
@@ -54,7 +54,7 @@ componentdef PongerC {
 public class Main {
 
 	public static final int BATCH_SIZE = 50;
-	public static final long REPEAT = 50000000;
+	public static final long REPEAT = 100000000;
 
 	public static void main(String[] args) {
 		try {

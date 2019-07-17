@@ -1,35 +1,29 @@
 <project>
-  <modelVersion>4.0.0</modelVersion>
- 
-  <groupId>se.sics.kola</groupId>
-  <artifactId>kola-examples</artifactId>
-  <version>1.9.3-SNAPSHOT</version>
- 
-  <name>Kola Examples Project</name>
- 
-  <properties>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>se.sics.kola</groupId>
+    <artifactId>kola-examples</artifactId>
+    <version>1.9.3-SNAPSHOT</version>
+    <name>Kola Examples Project</name>
+    <properties>
         <java.compiler.version>1.7</java.compiler.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kompics.version>1.1.0</kompics.version>
     </properties>
-
-  <dependencies>
-    <dependency>
+    <dependencies>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.5</version>
             <scope>compile</scope>
         </dependency>
-    <dependency>
+        <dependency>
             <groupId>se.sics.kompics</groupId>
             <artifactId>kompics-core</artifactId>
             <version>${kompics.version}</version>
             <scope>compile</scope>
         </dependency>
-  </dependencies>
-
-
-  <build>
+    </dependencies>
+    <build>
         <plugins>
             <plugin>
                 <inherited>true</inherited>
@@ -55,12 +49,26 @@
                     <calcMetrics>true</calcMetrics>
                 </configuration>
                 <executions>
-                  <execution>
-                    <goals>
-                      <goal>kolac</goal>
-                    </goals>
-                    <phase>generate-sources</phase>
-                  </execution>
+                    <execution>
+                        <goals>
+                            <goal>kolac</goal>
+                        </goals>
+                        <phase>generate-sources</phase>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.3</version>
+                <executions>
+                    <!-- Run shade goal on package phase -->
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>

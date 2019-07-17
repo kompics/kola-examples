@@ -40,7 +40,7 @@ public class PingerC extends ComponentDefinition {
             } else if (received >= Main.REPEAT) {
                 long endTs = System.currentTimeMillis();
                 long diff = (endTs - startTs);
-                long tp = (received / (diff / 1000));
+                long tp = ((sent+received) / (diff / 1000l));
                 System.out.println(String.format("Final Throughput: %,d msgs/s", tp));
                 Kompics.asyncShutdown();
             }
