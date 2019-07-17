@@ -1,0 +1,16 @@
+package se.sics.kola.examples.nnar;
+
+event Terminated(TAddress node)
+
+port PerfectFailureDetector {
+	indication {Terminated}
+}
+
+event BSend(Object msg) extends TMessage {
+
+}
+event BDeliver(TAddress src, Object msg)
+
+port BasicBroadcast {
+
+}
