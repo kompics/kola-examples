@@ -1,0 +1,200 @@
+Starting Run#1
+Cleaning...
+Building
+
+real	0m1.819s
+user	0m3.993s
+sys	0m0.238s
+Done
+Starting Run#2
+Cleaning...
+Building
+
+real	0m1.871s
+user	0m4.864s
+sys	0m0.277s
+Done
+Starting Run#3
+Cleaning...
+Building
+
+real	0m1.854s
+user	0m4.967s
+sys	0m0.300s
+Done
+Starting Run#4
+Cleaning...
+Building
+
+real	0m2.066s
+user	0m6.992s
+sys	0m0.364s
+Done
+Starting Run#5
+Cleaning...
+Building
+
+real	0m1.932s
+user	0m4.319s
+sys	0m0.250s
+Done
+Starting Run#6
+Cleaning...
+Building
+
+real	0m1.967s
+user	0m5.336s
+sys	0m0.296s
+Done
+Starting Run#7
+Cleaning...
+Building
+
+real	0m2.044s
+user	0m5.797s
+sys	0m0.319s
+Done
+Starting Run#8
+Cleaning...
+Building
+
+real	0m1.973s
+user	0m5.475s
+sys	0m0.302s
+Done
+Starting Run#9
+Cleaning...
+Building
+
+real	0m2.066s
+user	0m6.114s
+sys	0m0.329s
+Done
+Starting Run#10
+Cleaning...
+Building
+
+real	0m2.130s
+user	0m7.015s
+sys	0m0.366s
+Done
+Starting Run#11
+Cleaning...
+Building
+
+real	0m1.973s
+user	0m4.954s
+sys	0m0.280s
+Done
+Starting Run#12
+Cleaning...
+Building
+
+real	0m2.073s
+user	0m6.398s
+sys	0m0.357s
+Done
+Starting Run#13
+Cleaning...
+Building
+
+real	0m2.197s
+user	0m7.475s
+sys	0m0.392s
+Done
+Starting Run#14
+Cleaning...
+Building
+
+real	0m2.189s
+user	0m7.267s
+sys	0m0.394s
+Done
+Starting Run#15
+Cleaning...
+Building
+
+real	0m2.065s
+user	0m5.432s
+sys	0m0.312s
+Done
+Starting Run#16
+Cleaning...
+Building
+
+real	0m2.171s
+user	0m7.065s
+sys	0m0.381s
+Done
+Starting Run#17
+Cleaning...
+Building
+
+real	0m2.230s
+user	0m6.899s
+sys	0m0.384s
+Done
+Starting Run#18
+Cleaning...
+Building
+
+real	0m1.978s
+user	0m4.442s
+sys	0m0.252s
+Done
+Starting Run#19
+Cleaning...
+Building
+
+real	0m2.096s
+user	0m5.657s
+sys	0m0.320s
+Done
+Starting Run#20
+Cleaning...
+Building
+
+real	0m2.204s
+user	0m6.891s
+sys	0m0.369s
+Done
+Starting Run#21
+Cleaning...
+Building
+
+real	0m2.278s
+user	0m7.086s
+sys	0m0.410s
+Done
+Starting Run#22
+Cleaning...
+Building
+
+real	0m2.219s
+user	0m7.284s
+sys	0m0.385s
+Done
+Starting Run#23
+Cleaning...
+Building
+
+real	0m2.172s
+user	0m7.146s
+sys	0m0.378s
+Done
+Starting Run#24
+Cleaning...
+Building
+
+real	0m2.197s
+user	0m7.176s
+sys	0m0.383s
+Done
+Starting Run#25
+Cleaning...
+Building
+
+real	0m2.184s
+user	0m6.890s
+sys	0m0.377s
+Done

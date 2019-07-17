@@ -45,24 +45,6 @@
                     <showDeprecations>true</showDeprecations>
                 </configuration>
             </plugin>
-            <plugin>
-                <inherited>true</inherited>
-                <groupId>se.sics.kola</groupId>
-                <artifactId>kola-maven-plugin</artifactId>
-                <version>1.9.3-SNAPSHOT</version>
-                <configuration>
-                    <showDebugPrint>false</showDebugPrint>
-                    <calcMetrics>true</calcMetrics>
-                </configuration>
-                <executions>
-                  <execution>
-                    <goals>
-                      <goal>kolac</goal>
-                    </goals>
-                    <phase>generate-sources</phase>
-                  </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
 </project>
